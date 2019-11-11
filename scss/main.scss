@@ -14,15 +14,6 @@ html {
   color: #666;
 }
 
-/* Nav Bar*/
-.left-div {
-  height: 40px;
-  width: 100%;
-  background-color: $darker;
-  position: fixed;
-  z-index: 999;
-}
-
 /* Scrolling Effect */
 .pimg1,
 .pimg2,
@@ -88,6 +79,24 @@ html {
   padding: 20px;
 }
 
+/* Section One Conent*/
+.section-one {
+  display: flex;
+}
+.sect1-image-div {
+  background: url("../img/maria2.jpg") no-repeat;
+  background-size: contain;
+  background-color: $light;
+  flex: 1;
+}
+
+.sect1-text-div {
+  padding: 18px;
+  background-color: $dark;
+  color: $light;
+  flex: 2;
+}
+/* Footer */
 .footer {
   width: 100%;
   height: auto;
