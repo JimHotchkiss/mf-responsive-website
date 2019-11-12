@@ -11,7 +11,8 @@ html {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
-  color: #666;
+  color: $dark-green;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -56,12 +57,12 @@ html {
 }
 
 .pimg1 {
-  background-image: url("../img/image1.jpg");
+  background-image: url("../img/rainforest-water2.jpg");
   min-height: 100%;
 }
 
 .pimg2 {
-  background-image: url("../img/image2.jpg");
+  background-image: url("../img/rainforest-fog2.jpg");
   min-height: 400px;
 }
 .pimg3 {
