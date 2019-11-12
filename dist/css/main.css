@@ -8,6 +8,27 @@ html {
   line-height: 1.8em;
   color: #666; }
 
+.navbar {
+  height: 40px;
+  width: 100%;
+  padding: 12px;
+  display: flex; }
+
+.navbar li {
+  list-style-type: none;
+  flex: 1; }
+
+.navbar a {
+  text-decoration: none; }
+
+.navbar li {
+  display: inline;
+  margin: 25px; }
+
+.navbar .nav-text {
+  font-size: 18px;
+  color: #f7f9fb; }
+
 /* Scrolling Effect */
 .pimg1,
 .pimg2,
@@ -70,8 +91,9 @@ html {
   display: flex; }
 
 .sect1-image-div {
-  background: url("../img/maria2.jpg") no-repeat;
-  background-size: contain;
+  background: url("../img/maria-one-woman.jpg") no-repeat;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-color: #f7f9fb;
   flex: 1; }
 
@@ -80,6 +102,29 @@ html {
   background-color: #8fc1e3;
   color: #f7f9fb;
   flex: 2; }
+
+/* Section Two */
+.section-two {
+  display: flex; }
+
+.section-two-div-one {
+  padding: 20px; }
+
+.section-two-div-two {
+  padding: 20px; }
+
+/* Section Three */
+.section-three {
+  display: flex; }
+
+.section-three-div-one {
+  padding: 1em; }
+
+.section-three-div-two {
+  padding: 1em; }
+
+.section-three-div-three {
+  padding: 1em; }
 
 /* Footer */
 .footer {
