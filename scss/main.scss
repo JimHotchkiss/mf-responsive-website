@@ -112,10 +112,10 @@ html {
   display: flex;
 }
 .sect1-image-div {
-  background: url("../img/maria-one-woman.jpg") no-repeat;
-  background-size: 100% 100%;
+  background: url("../img/maria2.jpg") no-repeat;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-color: $light;
+  background-color: $dark;
   flex: 1;
 }
 
